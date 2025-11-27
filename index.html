@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Friday | Mini Processador de Alho Elétrico - Fim da Choradeira!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1568268264606180');
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1568268264606180&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+    
+    <style>
+        /* Estilos Globais e Reset Básico */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Cores: Azul Escuro (#1a1a2e) e Laranja/Vermelho (Destaque #ff4500) */
+
+        /* Estilos do Botão CTA */
+        .cta-button {
+            display: inline-block;
+            background-color: #ff4500; /* Laranja Forte */
+            color: white !important;
+            padding: 15px 30px;
+            font-size: 22px;
+            font-weight: 900;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            box-shadow: 0 4px 15px rgba(255, 69, 0, 0.4);
+            border: none;
+            cursor: pointer;
+        }
+        .cta-button:hover {
+            background-color: #e03c00;
+            transform: translateY(-2px);
+        }
+
+        /* Banner de Black Friday */
+        .black-friday-banner {
+            background-color: #000000; 
+            color: #ffff00; /* Amarelo/Dourado */
+            text-align: center;
+            padding: 10px 0;
+            font-weight: 700;
+            font-size: 1.2em;
+        }
+        .black-friday-banner span {
+            color: #ff4500;
+            font-weight: 900;
+        }
+        
+        /* Nota de Afiliação (Alterada) */
+        .affiliation-note { 
+            text-align: center;
+            font-size: 0.85em; 
+            color: #666;
+            padding: 8px 15px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Header (Cabeçalho Fixo) */
+        header {
+            background-color: #1a1a2e; 
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: 900;
+            color: #ff4500;
+        }
+
+        /* HERO MOBILE */
+        #hero {
+            background-color: #f4f4f9; 
+            color: #333;
+            padding: 60px 0 40px 0;
+            text-align: center;
+        }
+        #hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-weight: 900;
+            line-height: 1.1;
+            color: #1a1a2e;
+        }
+        #hero h2 {
+            font-size: 1.2em;
+            font-weight: 400;
+            margin-bottom: 30px;
+            color: #666;
+        }
+        
+        .hero-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin: 30px auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            padding: 60px 0;
+        }
+        .feature-item h4 {
+            color: #1a1a2e;
+            font-size: 1.3em;
+            font-weight: 700;
+        }
+        .icon {
+            color: #ff4500;
+        }
+        h3 {
+            font-size: 2.2em;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #1a1a2e;
+            font-weight: 900;
+        }
+
+        #pricing {
+            text-align: center;
+            padding: 60px 0;
+            background-color: #1a1a2e; 
+            color: white;
+        }
+        .price-box {
+            background-color: #000000; 
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 450px;
+            margin: 20px auto;
+            border: 5px solid #ff4500;
+        }
+        .old-price {
+            text-decoration: line-through;
+            font-size: 1.3em;
+            color: #ff9999;
+            margin-bottom: 5px;
+        }
+        .new-price {
+            font-size: 4em;
+            font-weight: 900;
+            color: #ffff00;
+            margin: 0;
+            line-height: 1;
+        }
+        .savings {
+            color: #ff4500;
+            font-weight: 900;
+            margin-bottom: 30px;
+            font-size: 1.5em;
+            background-color: #333;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                max-width: 1300px;
+            }
+            #hero {
+                padding: 100px 0 100px 0; 
+                text-align: left;
+            }
+            .hero-content-desktop {
+                display: flex;
+                align-items: center; 
+                gap: 60px; 
+            }
+            .hero-text-col {
+                flex: 1; 
+                max-width: 50%;
+            }
+            .hero-image-col {
+                flex: 1; 
+                text-align: right;
+                max-width: 50%;
+            }
+            #hero h1 {
+                font-size: 3.5em; 
+                text-align: left;
+                margin-bottom: 25px;
+            }
+            #hero h2 {
+                font-size: 1.6em; 
+                text-align: left;
+                margin-bottom: 40px;
+            }
+            .hero-image {
+                max-width: 100%; 
+                margin: 0;
+            }
+            .cta-button {
+                padding: 18px 40px;
+                font-size: 24px;
+            }
+            .features-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr); 
+                gap: 20px;
+                text-align: center; 
+            }
+            #pricing h3 {
+                font-size: 2.5em;
+            }
+            #testimonials .features-grid {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 30px;
+            }
+            #testimonials .feature-item {
+                flex: 0 0 calc(33.333% - 20px);
+                max-width: calc(33.333% - 20px);
+                text-align: center;
+                padding: 20px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+                border-radius: 8px;
+                background-color: #fff;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="black-friday-banner">
+        ⏳ OFERTA BLACK FRIDAY: SEU ALHO TRITURADO COM <span>80% DE DESCONTO!</span> ⏳
+    </div>
+    
+    <div class="affiliation-note">
+        **Este é um canal afiliado.** Buscamos e selecionamos as **melhores lojas e avaliações** para garantir sua compra com tranquilidade. 
+        Não nos responsabilizamos pelo envio, prazos ou suporte pós-venda, que são de **responsabilidade exclusiva do vendedor parceiro.**
+    </div>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">Mini-Processador</div>
+            <a href="#pricing" class="cta-button" style="font-size: 18px;">IR PARA OFERTA BF!</a>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content-desktop"> 
+            
+                <div class="hero-text-col">
+                    <h1>BLACK FRIDAY: Diga Adeus à Choradeira de Cebola e Alho!</h1>
+                    <h2>O Mini Processador Elétrico Portátil mais vendido do Brasil com a maior queda de preço da história. Triture em 10 segundos e lave em 5!</h2>
+                    
+                    <a href="https://s.shopee.com.br/6VGNVhUdf2" class="cta-button">
+                        GARANTIR MEU DESCONTO BLACK FRIDAY AGORA!
+                    </a>
+                    <p style="margin-top: 15px; font-size: 1.1em; font-weight: 700; color: #ff4500;">🔥 Estoque Limitado para a Black Friday! Aproveite a Oferta!</p>
+                </div>
+                
+                <div class="hero-image-col">
+                    <img src="mini-processador.webp" alt="Mini Processador de Alho Elétrico Black Friday" class="hero-image">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h3>🔪 4 MOTIVOS PARA TER ESTE PROCESSADOR NA SUA COZINHA</h3>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="icon">🧅</div>
+                    <h4>ULTRA-RÁPIDO: Triture em Segundos</h4>
+                    <p>Processa alho, cebola, pimenta, gengibre e ervas instantaneamente com o toque de um botão. Zero esforço!</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">🔋</div>
+                    <h4>PORTÁTIL: Totalmente Sem Fio</h4>
+                    <p>Funciona com bateria USB recarregável. Leve para o churrasco, acampamento ou use em qualquer lugar da bancada.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">💧</div>
+                    <h4>HIGIENE: 100% Lavável e Selado</h4>
+                    <p>Corpo à prova d'água para lavagem direta. Limpeza fácil e rápida. Chega de sujar a tábua de corte!</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">💪</div>
+                    <h4>POTÊNCIA: Lâminas de Aço Inoxidável</h4>
+                    <p>Motor potente e lâminas super afiadas. Pica até carnes e nozes com facilidade e precisão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials" style="background-color: #fff;">
+        <div class="container">
+            <h3>⭐ O FIM DA BAGUNÇA NA COZINHA!</h3>
+            <div class="features-grid"> 
+                <div class="feature-item"> "Chega de perder tempo. É o meu melhor investimento de Black Friday na cozinha. Tritura alho em segundos!"
+                    <p style="color: #ff4500; font-weight: 700;">- Márcia P.</p>
+                </div>
+                <div class="feature-item"> "A portabilidade é o ponto forte. Uso até para fazer papinhas para o bebê. Super fácil de lavar, recomendo!"
+                    <p style="color: #ff4500; font-weight: 700;">- Juliana C.</p>
+                </div>
+                <div class="feature-item"> "Preço excelente na Black Friday! O meu chegou super rápido e tem força para triturar tudo."
+                    <p style="color: #ff4500; font-weight: 700;">- Fábio R.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <h3>QUASE ESGOTADO! ÚLTIMAS UNIDADES EM PROMOÇÃO!</h3>
+            <div class="price-box">
+                <p class="old-price">Preço Normal: R$ 70,00</p>
+                <p style="font-size: 1.5em; font-weight: 700; color: white; margin-bottom: 5px;">HOJE (Black Friday):</p>
+                
+                <p class="new-price">R$ 20,90</p>
+                
+                <p class="savings">VOCÊ ECONOMIZA R$ 49,00!</p>
+                
+                <a href="https://s.shopee.com.br/6VGNVhUdf2" class="cta-button">
+                    COMPRAR AGORA (APROVEITE O DESCONTO)
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>Promoradar.ml &copy; 2025. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="https://sites.google.com/view/promoradarml/in%C3%ADcio">Política de Privacidade</a> | 
+                <a href="https://sites.google.com/view/termodeusopromoradar/in%C3%ADcio">Termos de Uso</a> | 
+                </div>
+             <p style="margin-top: 15px; color: #ff4500; font-size: 0.8em;">
+                 Atenção: Somos afiliados e não o vendedor oficial. O processo de compra, pagamento, envio e suporte pós-venda é de total responsabilidade do vendedor parceiro. Garantimos a curadoria das melhores opções com base nas avaliações de outros clientes.
+             </p>
+        </div>
+    </footer>
+
+</body>
+</html>
